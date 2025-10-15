@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Pembuatan Form</title>
+</head>
+<body>
+
+    <form>
+        <h1>Form Pendaftaran</h1>
+        <hr>
+
+        <p>
+            <label for="nim">NIM:</label>
+            <input type="text" id="nim" name="nim" size="11">
+        </p>
+        <p>
+            <label for="nama">NAMA:</label>
+            <input type="text" id="nama" name="nama" size="25">
+        </p>
+        <p>
+            JENIS KELAMIN:
+            <input type="radio" id="pria" name="jkel" value="Pria">
+            <label for="pria">Pria</label>
+            <input type="radio" id="wanita" name="jkel" value="Wanita">
+            <label for="wanita">Wanita</label>
+        </p>
+        <p>
+            <label for="agama">AGAMA:</label>
+            <select id="agama" name="agama">
+                <option value="Islam">Islam</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            STATUS:
+            <input type="radio" id="kawin" name="status" value="kawin">
+            <label for="kawin">Kawin</label>
+            <input type="radio" id="belumkawin" name="status" value="belumkawin">
+            <label for="belumkawin">Belum Kawin</label>
+        </p>
+        <p>
+            <label for="jurusan">JURUSAN:</label>
+            <select id="jurusan" name="jurusan">
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Manajemen Informatika">Manajemen Informatika</option>
+                <option value="Teknik Komputer">Teknik Komputer</option>
+                <option value="Teknik Industri">Teknik Industri</option>
+            </select>
+        </p>
+        <p>
+            Hobi:
+            <input type="checkbox" id="futsal" name="hoby" value="Futsal">
+            <label for="futsal">Futsal</label>
+            <input type="checkbox" id="renang" name="hoby" value="Renang">
+            <label for="renang">Renang</label>
+            <input type="checkbox" id="traveling" name="hoby" value="Traveling">
+            <label for="traveling">Traveling</label>
+        </p>
+        <p>
+            <label for="ket">KETERANGAN:</label><br>
+            <textarea id="ket" name="ket" rows="3" cols="30"></textarea>
+        </p>
+
+        <br>
+        <input type="submit" value="kirim">
+        <input type="reset" value="ulang">
+    </form>
+
+</body>
+</html>
